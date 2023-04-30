@@ -1,4 +1,8 @@
 package commands;
 
-public class exit {
+public class Exit implements Command{
+    @Override
+    public void execute() {
+
+    }
 }

@@ -1,2 +1,5 @@
-package commands;public class CommandMap {
+package commands;
+
+public class CommandMap {
+
 }

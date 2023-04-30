@@ -1,2 +1,4 @@
-package models;public class Storage {
+package models;
+
+public class Storage {
 }

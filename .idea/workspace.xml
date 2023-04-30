@@ -1,26 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8473612a-49de-4924-ae36-b74038ecd12b" name="Changes" comment="" />
+    <list default="true" id="8473612a-49de-4924-ae36-b74038ecd12b" name="Changes" comment="created arch, implemented save and purchase methods">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level_up.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cache/StoreCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/CommandMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/Exit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/Get_avarage_price.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/Get_fewest_product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/Get_most_popular_product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/Get_product_profit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/Get_quantity_of_product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/Order_product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/Purchase_product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/Save_product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Purchase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Store.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2P6ZSeTUmsXcy2PKYN3CjLmpy7b" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -29,8 +82,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682779512212</updated>
-      <workItem from="1682779514328" duration="2000" />
+      <workItem from="1682779514328" duration="7779000" />
+      <workItem from="1682859971784" duration="284000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="created arch, implemented save and purchase methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="created arch, implemented save and purchase methods" />
   </component>
 </project>

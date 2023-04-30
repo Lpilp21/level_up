@@ -1,2 +1,8 @@
-package commands;public class get_quantity_of_product {
+package commands;
+
+public class Get_quantity_of_product implements Command{
+    @Override
+    public void execute() {
+
+    }
 }
