@@ -1,9 +1,9 @@
 package cache;
 
-import models.Order;
+import models.Transaction;
 import models.Product;
-import models.Purchase;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -12,33 +12,29 @@ public class StoreCache {
         productCatalog = new HashMap<>();
         purchases = new HashMap<>();
         orders = new HashMap<>();
+        storage = new HashMap<>();
     }
 
-    public Map<String, Purchase> getPurchases() {
+    public Map<String, ArrayList<Transaction>> getPurchases() {
         return purchases;
     }
 
-    public void setPurchases(Map<String, Purchase> purchases) {
-        this.purchases = purchases;
-    }
-
-    public Map<String, Order> getOrders() {
+    public Map<String, ArrayList<Transaction>> getOrders() {
         return orders;
     }
-
-    public void setOrders(Map<String, Order> orders) {
-        this.orders = orders;
-    }
-
-    private Map<String, Order> orders;
-    //TODO: need to implement setting intial balance
 
 
     public Map<String, Product> getProductCatalog() {
         return productCatalog;
     }
-    private double balance;
+
+    public Map<String, Integer> getStorage() {
+        return storage;
+    }
+
+    private Map<String, ArrayList<Transaction>> orders;
     private Map<String, Product> productCatalog;
-    private Map<String, Purchase> purchases;
+    private Map<String, ArrayList<Transaction>> purchases;
+    private Map<String, Integer> storage;
 
 }
