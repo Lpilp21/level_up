@@ -18,6 +18,7 @@ public class CommandMap {
         commands.put("get_fewest_product", new GetFewestProductCommand());
         commands.put("get_most_popular_product", new GetMostPopularProductCommand());
         commands.put("get_orders_report", new GetOrdersReportCommand());
+        commands.put("export_orders_report", new ExportOrdersReportCommand());
         commands.put("exit", new ExitCommand());
 
     }

@@ -1,0 +1,5 @@
+Product ID,Product Name,Quantity,Price,COGS,Selling Price
+prod2,android,3,2000.00,100.00,2000.00
+prod2,android,5,2000.00,100.00,2000.00
+prod1,iphone,5,2800.00,100.00,2800.00
+prod1,iphone,3,2800.00,100.00,2800.00

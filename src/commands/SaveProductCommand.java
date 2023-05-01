@@ -2,6 +2,8 @@ package commands;
 
 import cache.StoreCache;
 import models.Product;
+import utils.InputValidator;
+
 import java.util.Map;
 
 public class SaveProductCommand implements Command {
@@ -17,6 +19,8 @@ public class SaveProductCommand implements Command {
         String productId = args[0];
         String productName = args[1];
         double price = Double.parseDouble(args[2]);
+        if(!InputValidator.valid(price))
+            return;
 
         Product product;
         if (!productCatalog.containsKey(productId)) {

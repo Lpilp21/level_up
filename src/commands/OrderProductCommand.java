@@ -3,6 +3,7 @@ package commands;
 import cache.StoreCache;
 import models.Transaction;
 import models.Product;
+import utils.InputValidator;
 
 import java.util.ArrayList;
 import java.util.Map;
@@ -23,6 +24,8 @@ public class OrderProductCommand implements Command{
         productCatalog = cache.getProductCatalog();
         String productId = args[0];
         int productQty = Integer.parseInt(args[1]);
+        if(!InputValidator.valid(productQty))
+            return;
         if(!storage.containsKey(productId)){
             System.out.println("There are no more products in storage with this ID");
             return;

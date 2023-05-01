@@ -1,6 +1,7 @@
 package commands;
 import cache.StoreCache;
 import models.Transaction;
+import utils.InputValidator;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,6 +21,8 @@ public class PurchaseProductCommand implements Command{
         String productId = args[0];
         int productQty = Integer.parseInt(args[1]);
         double productPrice = Double.parseDouble(args[2]);
+        if(!(InputValidator.valid(productQty) && InputValidator.valid(productPrice)))
+            return;
 
         Transaction purchase = new Transaction(productId, productQty, productPrice);
         purchase.setTotal(productPrice*productQty);

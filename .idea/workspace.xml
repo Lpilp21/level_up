@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8473612a-49de-4924-ae36-b74038ecd12b" name="Changes" comment="implemented bonus method n1">
-      <change afterPath="$PROJECT_DIR$/src/commands/GetOrdersReportCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Order.java" afterDir="false" />
+    <list default="true" id="8473612a-49de-4924-ae36-b74038ecd12b" name="Changes" comment="fixed profit calculation error">
+      <change afterPath="$PROJECT_DIR$/report.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/ExportOrdersReportCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/COGSCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/Command.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/commands/CommandMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/CommandMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/ExitCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/ExitCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/GetAveragePriceCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/GetAveragePriceCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/GetFewestProductCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/GetFewestProductCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/GetMostPopularProductCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/GetMostPopularProductCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/GetProductProfitCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/GetProductProfitCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/GetQuantityOfProductCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/GetQuantityOfProductCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/OrderProductCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/OrderProductCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/GetOrdersReportCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/GetOrdersReportCommand.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +27,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -61,6 +58,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="commands" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -71,7 +73,7 @@
       <updated>1682779512212</updated>
       <workItem from="1682779514328" duration="7779000" />
       <workItem from="1682859971784" duration="21089000" />
-      <workItem from="1682943855160" duration="573000" />
+      <workItem from="1682943855160" duration="5708000" />
     </task>
     <task id="LOCAL-00001" summary="created arch, implemented save and purchase methods">
       <created>1682860288382</created>
@@ -94,17 +96,43 @@
       <option name="project" value="LOCAL" />
       <updated>1682879937781</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="implemented bonus method n1">
+      <created>1682944657298</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682944657299</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fixed profit calculation error">
+      <created>1682945412336</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682945412336</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="created arch, implemented save and purchase methods" />
     <MESSAGE value="implemented all command actions, v1.0" />
     <MESSAGE value="implemented bonus method n1" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented bonus method n1" />
+    <MESSAGE value="fixed profit calculation error" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed profit calculation error" />
   </component>
 </project>
