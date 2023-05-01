@@ -5,7 +5,6 @@ import models.Transaction;
 import utils.AverageCalculator;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Map;
 
 public class GetAveragePriceCommand implements Command{

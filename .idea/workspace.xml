@@ -4,36 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8473612a-49de-4924-ae36-b74038ecd12b" name="Changes" comment="created arch, implemented save and purchase methods">
-      <change afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commands/ExitCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commands/GetAveragePriceCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commands/GetFewestProductCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commands/GetMostPopularProductCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commands/GetProductProfitCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commands/GetQuantityOfProductCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commands/OrderProductCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commands/PurchaseProductCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/AverageCalculator.java" afterDir="false" />
+    <list default="true" id="8473612a-49de-4924-ae36-b74038ecd12b" name="Changes" comment="implemented bonus method n1">
+      <change afterPath="$PROJECT_DIR$/src/commands/GetOrdersReportCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cache/StoreCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cache/StoreCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/Command.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/commands/CommandMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/CommandMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/Exit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/Get_avarage_price.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/Get_fewest_product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/Get_most_popular_product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/Get_product_profit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/Get_quantity_of_product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/Order_product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/Purchase_product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/Save_product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/SaveProductCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Purchase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Storage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Store.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/ExitCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/ExitCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/GetAveragePriceCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/GetAveragePriceCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/GetFewestProductCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/GetFewestProductCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/GetMostPopularProductCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/GetMostPopularProductCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/GetProductProfitCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/GetProductProfitCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/GetQuantityOfProductCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/GetQuantityOfProductCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/OrderProductCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/OrderProductCommand.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +57,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -87,7 +70,8 @@
       <option name="presentableId" value="Default" />
       <updated>1682779512212</updated>
       <workItem from="1682779514328" duration="7779000" />
-      <workItem from="1682859971784" duration="17222000" />
+      <workItem from="1682859971784" duration="21089000" />
+      <workItem from="1682943855160" duration="573000" />
     </task>
     <task id="LOCAL-00001" summary="created arch, implemented save and purchase methods">
       <created>1682860288382</created>
@@ -103,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682860343687</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="implemented all command actions, v1.0">
+      <created>1682879937781</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682879937781</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +103,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="created arch, implemented save and purchase methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="created arch, implemented save and purchase methods" />
+    <MESSAGE value="implemented all command actions, v1.0" />
+    <MESSAGE value="implemented bonus method n1" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented bonus method n1" />
   </component>
 </project>

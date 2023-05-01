@@ -1,6 +1,5 @@
 package commands;
 
-import cache.StoreCache;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -18,7 +17,9 @@ public class CommandMap {
         commands.put("get_product_profit", new GetProductProfitCommand());
         commands.put("get_fewest_product", new GetFewestProductCommand());
         commands.put("get_most_popular_product", new GetMostPopularProductCommand());
+        commands.put("get_orders_report", new GetOrdersReportCommand());
         commands.put("exit", new ExitCommand());
+
     }
 
     public Command getCommand(String commandString) {

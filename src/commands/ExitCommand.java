@@ -2,7 +2,6 @@ package commands;
 
 import cache.StoreCache;
 
-import java.util.List;
 
 public class ExitCommand implements Command{
 

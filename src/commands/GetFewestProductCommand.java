@@ -2,7 +2,6 @@ package commands;
 
 import cache.StoreCache;
 
-import java.util.List;
 import java.util.Map;
 
 public class GetFewestProductCommand implements Command{
