@@ -32,8 +32,17 @@ public class GetProductProfitCommand implements Command{
         System.out.println(avgPurchasePrice);
         double avgOrderPrice = AverageCalculator.calcAverage(productOrders);
         System.out.println(avgOrderPrice);
+        int orderQty = getOrderQty(productId);
 
-        return avgOrderPrice - avgPurchasePrice;
+        return orderQty*(avgOrderPrice - avgPurchasePrice);
+
+    }
+    private int getOrderQty(String productId){
+        int count = 0;
+        for (int i = 0; i < orders.get(productId).size(); i++) {
+            count+=orders.get(productId).get(i).getOrderQty();
+        }
+        return count;
 
     }
 }
