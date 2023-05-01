@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8473612a-49de-4924-ae36-b74038ecd12b" name="Changes" comment="fixed profit calculation error">
-      <change afterPath="$PROJECT_DIR$/report.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commands/ExportOrdersReportCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/COGSCalculator.java" afterDir="false" />
+    <list default="true" id="8473612a-49de-4924-ae36-b74038ecd12b" name="Changes" comment="implemented report generation command, added validations for prices and QTYs, added COGS calculator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/CommandMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/CommandMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/ExportOrdersReportCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/ExportOrdersReportCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/commands/GetOrdersReportCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/GetOrdersReportCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/COGSCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/COGSCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +71,7 @@
       <updated>1682779512212</updated>
       <workItem from="1682779514328" duration="7779000" />
       <workItem from="1682859971784" duration="21089000" />
-      <workItem from="1682943855160" duration="5708000" />
+      <workItem from="1682943855160" duration="7088000" />
     </task>
     <task id="LOCAL-00001" summary="created arch, implemented save and purchase methods">
       <created>1682860288382</created>
@@ -110,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682945412336</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="implemented report generation command, added validations for prices and QTYs, added COGS calculator">
+      <created>1682950785387</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682950785388</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +138,7 @@
     <MESSAGE value="implemented all command actions, v1.0" />
     <MESSAGE value="implemented bonus method n1" />
     <MESSAGE value="fixed profit calculation error" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed profit calculation error" />
+    <MESSAGE value="implemented report generation command, added validations for prices and QTYs, added COGS calculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented report generation command, added validations for prices and QTYs, added COGS calculator" />
   </component>
 </project>

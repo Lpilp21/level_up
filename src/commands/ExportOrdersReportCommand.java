@@ -39,8 +39,8 @@ public class ExportOrdersReportCommand implements Command {
         for(String product : orders.keySet()){
             ArrayList<Transaction> productOrder = orders.get(product);
             for (int i = 0; i<productOrder.size(); i++) {
-                double COGS = COGSCalculator.calculateCOGS(orders.get(product), purchases.get(product));
                 Transaction order = productOrder.get(i);
+                double COGS = COGSCalculator.calculateCOGS(order, purchases.get(product));
                 String line = order.getProductId() + "," +
                         productCatalog.get(product).getName() + "," +
                         order.getOrderQty() + "," +

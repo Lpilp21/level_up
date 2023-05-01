@@ -25,7 +25,7 @@ public class GetOrdersReportCommand implements Command {
             for (int i = 0; i < productOrders.size(); i++) {
                 Transaction order = productOrders.get(i);
                 String productId = order.getProductId();
-                double COGS = COGSCalculator.calculateCOGS(orders.get(product), purchases.get(product));
+                double COGS = COGSCalculator.calculateCOGS(order, purchases.get(product));
                 System.out.printf("%-15s%-20s%-10d%-10.2f%-10.2f%-10.2f\n", productId, productCatalog.get(productId).getName(),
                         order.getOrderQty(), order.getProductPrice(), COGS, productCatalog.get(productId).getPrice());
 

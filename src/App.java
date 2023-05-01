@@ -25,7 +25,6 @@ public class App {
                 executeCommand(commandString, inArgs, cache, commandMap);
             }
         }
-
         scanner.close();
         System.exit(0);
     }
