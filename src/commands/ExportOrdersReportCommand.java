@@ -1,7 +1,6 @@
 package commands;
 
 import cache.StoreCache;
-import models.Order;
 import models.Product;
 import models.Transaction;
 import utils.COGSCalculator;
@@ -10,7 +9,6 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Map;
 
 public class ExportOrdersReportCommand implements Command {

@@ -14,18 +14,15 @@ public class App {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
-            System.out.print("Enter command: ");
+            System.out.print("--> ");
             String input = scanner.nextLine();
 
             String[] tokens = input.split("\\s+");
             String commandString = tokens[0];
             String[] inArgs = Arrays.copyOfRange(tokens, 1, tokens.length);
-
+            executeCommand(commandString, inArgs, cache, commandMap);
             if (commandString.equals("exit")) {
-                break;
-            } else {
-                executeCommand(commandString, inArgs, cache, commandMap);
-            }
+                break;}
         }
         scanner.close();
         System.exit(0);
